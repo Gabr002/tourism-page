@@ -21,3 +21,28 @@ section p {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
+.header-amantes {
+    margin: 64px auto 64px;
+}
+
+.header-amantes p {
+    margin-bottom: 2px; 
+}
+
+.footer-images {
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+ul + img {
+    margin-top: 48px;
+}
+
+hr {
+    margin: 40px 0px 40px;
+}
+
+p + h2 {
+    margin-bottom: 8px;
+}
