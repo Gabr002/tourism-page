@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+:root {
+    font-family: "Open Sans", sans-serif;
+  /* font-family: "Alice", serif;
+  line-height: 150%;
+  color: #573A37; */
+}
+
 #page {
     box-sizing: border-box;
     width: 1120px;
@@ -11,6 +18,8 @@
 
 header p {
     margin-bottom: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 section p {
@@ -46,3 +55,19 @@ hr {
 p + h2 {
     margin-bottom: 8px;
 }
+
+footer {
+    margin: 65px auto 80px;
+    text-align: center;
+}
+
+.description-image {
+    margin-top: 24px;
+    text-align: center;
+    font-style: italic;
+}
+
+hr p {
+    margin-top: 24px;
+    text-align: center;
+}   
