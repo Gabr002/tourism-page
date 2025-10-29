@@ -5,9 +5,7 @@
 
 :root {
     font-family: "Open Sans", sans-serif;
-  /* font-family: "Alice", serif;
-  line-height: 150%;
-  color: #573A37; */
+    line-height: 150%;
 }
 
 #page {
@@ -16,14 +14,52 @@
     margin: 88px auto 80px;
 }
 
-header p {
+header > p {
     margin-bottom: 8px;
     font-weight: bold;
     text-transform: uppercase;
+    color: #E1624F;
+}
+
+p{
+    font-size: 16px;
+    font-weight: regular;
+    color: #333333;
 }
 
 section p {
     margin-bottom: 8px;
+}
+
+h1{
+    font-size: 36px; 
+}
+
+h2 {
+    font-size: 32px;
+    margin: 8px 0px 8px;
+}
+
+
+ul {
+    padding-left: 35px;
+}   
+
+ol {
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul li {
+    color: #0C51A7;
+    font-weight: bold
+}
+
+.paragraph-footer {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
 }
 
 .busan-header {
@@ -62,12 +98,21 @@ footer {
 }
 
 .description-image {
+    font-size: 16px;
     margin-top: 24px;
     text-align: center;
     font-style: italic;
+    color: #333333;
 }
 
-hr p {
+.description-footer {
+    font-size: 16px;
+    font-weight: Regular;
     margin-top: 24px;
     text-align: center;
+    color: #333333;
 }   
+
+footer img {
+    vertical-align: middle;
+}
